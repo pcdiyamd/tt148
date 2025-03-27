@@ -1,5 +1,5 @@
 ---
-title: Astro Blog 部署 Cloudflare
+title: 用Astro建置Blog
 published: 2025-03-27
 description: 'Creat an Astro Blog'
 image: ''
@@ -45,11 +45,13 @@ lang: ''
 ```
 
 3. [Cloudflare註冊帳號](https://dash.cloudflare.com/)，左邊點擊`Workers和Pages` ➡️ 連線至 Git ➡️ 連結你的 github 帳號
- - 選擇存放庫選：clone 主題(fuwari)的倉庫➡️開始設定
- - Framework預設：`Astro`
- - 組建命令：npm run build (預設)
- - 組建輸出目錄：/dist (預設)
- - ➡️開始部署
+
+- 選擇存放庫選：clone 主題(fuwari)的倉庫➡️開始設定
+- Framework預設：`Astro`
+- 組建命令：npm run build (預設)
+- 組建輸出目錄：/dist (預設)
+- ➡️開始部署
+
 4. 等一小段時間部署完成後，此時網站還無法瀏覽，Cloudflare會給你URL，複制貼上到astro.config.mjs裡的site，終端機切到blog目錄：
 
 ```bash
