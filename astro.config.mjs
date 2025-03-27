@@ -19,6 +19,7 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import rehypeExternalLinks from 'rehype-external-links';/* import externalLink plugin */
+import remarkRehype from 'remark-rehype';/* footnote plugin */
 
 // https://astro.build/config
 export default defineConfig({
@@ -72,6 +73,7 @@ export default defineConfig({
       remarkDirective,
       remarkSectionize,
       parseDirectiveNode,
+      [remarkRehype, { footnoteLabel: '註腳' }],
     ],
     rehypePlugins: [
       rehypeKatex,

@@ -66,7 +66,7 @@ git push
 
 ## 安裝套件(選用)
 
-#### 1. 超連結用 rehype-external-links
+### 1. 超連結用 rehype-external-links
 
 - 檢視 Blog 發現外部連結都是直接開啟，不是新開視窗，google 查詢後發現有解。
 - 依 Camel's blog教學[^2]方法 1 所示，可以藉由開源寫好的直接引用，小修改一下即可😀
@@ -94,7 +94,7 @@ markdown: {
 
 astro.config.ts(在astro blog根目錄下)，加入`import externalLink from "./src/externalLink";`，並在`rehypePlugins:`內容中加入 markdown 樣式，這裡要小心操作😂
 
-#### 2. Footnotes 顯示為中文：註腳
+### 2. Footnotes 顯示為中文：註腳
 
 在寫文章的內容引用到footnote功能，會呈現在文章最底下，astro預設顯示為英文footnote，我想將改為顯示中文`註腳`
 
@@ -136,3 +136,12 @@ export default defineConfig({
 | pnpm new-post <filename>        | 創建新文章                            |
 | pnpm astro ...                  | 執行，等指令`astro add``astro check`   |
 | pnpm astro --help               | 顯示 Astro CLI 説明                  |
+
+## 參考連結
+
+- [ASTRO官方：Install Astro](https://docs.astro.build/zh-tw/install-and-setup/)
+- [Camel 's blog： Astro如何自動為外部連結加上 rel='nofollow' 和 target='_blank' 屬性](https://blog.camel2243.com/posts/how-to-auto-add-rel-nofollow-and-target-blank-to-external-links-in-astro/)
+- [官方指南](https://docs.astro.build/zh-cn/guides/deploy/)將Blog部署至 Vercel， Netlify， GitHub Pages方法
+- [rehype-external-links](https://www.npmjs.com/package/rehype-external-links)
+
+[^2]:  [Astro 如何自動為外部連結加上 rel='nofollow' 和 target='_blank' 屬性](https://blog.camel2243.com/posts/how-to-auto-add-rel-nofollow-and-target-blank-to-external-links-in-astro/)
