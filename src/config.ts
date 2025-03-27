@@ -49,6 +49,8 @@ export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/dm-avatar.webp',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: '小孩',
   bio: '體型雖小，但能量異常',
+  links: [    
+  ],
 }
 
 export const licenseConfig: LicenseConfig = {
