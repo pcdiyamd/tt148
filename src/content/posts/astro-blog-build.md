@@ -140,7 +140,8 @@ export default defineConfig({
 ## 參考連結
 
 - [ASTRO官方：Install Astro](https://docs.astro.build/zh-tw/install-and-setup/)
-- [Camel 's blog： Astro如何自動為外部連結加上 rel='nofollow' 和 target='_blank' 屬性](https://blog.camel2243.com/posts/how-to-auto-add-rel-nofollow-and-target-blank-to-external-links-in-astro/)
+- [新一代静态博客框架Astro的部署优化指南与使用体验 - 时歌的博客](https://www.lapis.cafe/posts/technicaltutorials/%E6%96%B0%E4%B8%80%E4%BB%A3%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6astro%E7%9A%84%E9%83%A8%E7%BD%B2%E4%BC%98%E5%8C%96%E6%8C%87%E5%8D%97%E4%B8%8E%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/)
+- [[Astro] 如何自動為外部連結加上 rel='nofollow' 和 target='_blank' 屬性 | Camel 's blog](https://blog.camel2243.com/posts/how-to-auto-add-rel-nofollow-and-target-blank-to-external-links-in-astro/)
 - [官方指南](https://docs.astro.build/zh-cn/guides/deploy/)將Blog部署至 Vercel， Netlify， GitHub Pages方法
 - [rehype-external-links](https://www.npmjs.com/package/rehype-external-links)
 
