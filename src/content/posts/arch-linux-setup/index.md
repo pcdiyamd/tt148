@@ -168,8 +168,11 @@ pacman -S linux-headers nvidia-dkms nvidia-settings
 >
 > - [連結](https://youtu.be/AYxaNjbC1wg?t=746&si=VXHH-Me6s8Gcoid6)
 > - 打開 KONSOLE
-> - 輸入`sudo pacman -Sy flatpak`
->
+
+```bash
+sudo pacman -Sy flatpak
+```
+
 #### yay
 >
 > [!NOTE]
