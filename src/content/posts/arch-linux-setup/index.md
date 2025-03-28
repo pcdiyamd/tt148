@@ -45,7 +45,7 @@ ping google.com
 ```
 
 > [!WARNING]
-> 如果無網路
+> 如果沒有網路
 >
 > 1. 輸入`iwctl`，查看 NetworkConfigurationEnabled 的狀態
 > 2. 輸入 device list 查看 Devices 中 Address 欄位是否有網路位址、還有網卡 Name(假設為 wlan0)
@@ -163,7 +163,8 @@ pacman -S linux-headers nvidia-dkms nvidia-settings
 
 #### Discover 軟體庫問題
 >
-> [!NOTE] 處理 Discover 應用程序端問題
+> [!NOTE]
+> 處理 Discover 應用程序端問題
 >
 > - [連結](https://youtu.be/AYxaNjbC1wg?t=746&si=VXHH-Me6s8Gcoid6)
 > - 打開 KONSOLE
@@ -171,7 +172,8 @@ pacman -S linux-headers nvidia-dkms nvidia-settings
 >
 #### yay
 >
-> [!NOTE] 安裝 yay
+> [!NOTE]
+> 安裝 yay
 
 ```bash
 sudo pacman -S --needed git base-devel
@@ -186,7 +188,8 @@ makepkg -si
 
 #### 中文輸入法
 >
-> [!NOTE] 加入中文輸入法
+> [!NOTE]
+> 加入中文輸入法
 > `sudo pacman -S fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons`
 
 - 在 KDE 左下角的應用程式列表搜尋「Fcitx5 設定程式」，加入「新酷音」注音輸入法。
