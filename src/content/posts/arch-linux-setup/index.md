@@ -23,7 +23,7 @@ lang: ''
 
 1. 下載好 Arch Linux 映像檔與 Rufus 後，開啟 Rufus 選擇 Arch Linux ISO 檔
 ![[Arch-Linux-setup.png]]
-2. 點執行後會跳出<u>偵測到 ISOHybrid 映像檔</u>，點擊<span style="background:#affad1">預設的「ISO 映像模式寫入」</span>
+1. 點執行後會跳出<u>偵測到 ISOHybrid 映像檔</u>，點擊<u>預設的「ISO 映像模式寫入」</u>
 
 ### 2. 主機 BIOS 確認 UEFI 啟動
 
@@ -147,8 +147,8 @@ pacman -Sy archinstall
 
 #### 亂碼
 >
-> [!NOTE] 遇到亂碼
->
+> [!NOTE]
+> 遇到亂碼
 > 進入桌面後，在 archinstall 階段忘了加入 noto-fonts-cjk，以致進入系統為亂碼
 依照教學下載安裝字體，再系統生成，重開機即正常顯示中文字
 
@@ -248,10 +248,10 @@ sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/do
 
 ## 平時維護
 
-> [!Question]
+> [!QUESTION]
 > 詢問AI：請問Archlinux是滾動式的更新，若輸入`sudo pacman -Syu`指令，有需要注意什麼，避免更新後系統損毁或無法登入?
 
-> [!Tip]
+> [!TIP]
 > ChatGPT 回覆：
 >
 ### 1. 查看官方公告
