@@ -110,9 +110,9 @@ pacman -Sy archlinux-keyring
 pacman -Sy archinstall
 ```
 
-> [!Tip] 斜線 `/` 作用
->
-> - 在archinstall中，在眾多選項找名稱時，可以直接按鍵盤`/`輸入文字快速找尋
+> [!Tip]
+> 斜線 `/` 作用
+> 在archinstall中，在眾多選項找名稱時，可以直接按鍵盤`/`輸入文字快速找尋
 
 - 安裝選項重點設定：
   - Archinstall language：無法更改
