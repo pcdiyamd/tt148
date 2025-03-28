@@ -248,7 +248,7 @@ sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/do
 
 ## 平時維護
 
-> [!QUESTION]
+> [!NOTE]
 > 詢問AI：請問Archlinux是滾動式的更新，若輸入`sudo pacman -Syu`指令，有需要注意什麼，避免更新後系統損毁或無法登入?
 
 > [!TIP]
