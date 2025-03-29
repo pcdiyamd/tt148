@@ -165,7 +165,6 @@ pacman -S linux-headers nvidia-dkms nvidia-settings
 >
 > [!NOTE]
 > 處理 Discover 應用程序端問題，參考[連結](https://youtu.be/AYxaNjbC1wg?t=746&si=VXHH-Me6s8Gcoid6)
-> 打開 KONSOLE
 
 ```bash
 sudo pacman -Sy flatpak

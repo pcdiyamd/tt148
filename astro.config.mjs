@@ -20,6 +20,7 @@ import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import rehypeExternalLinks from 'rehype-external-links';/* import externalLink plugin */
 import remarkRehype from 'remark-rehype';/* footnote plugin */
+import { remarkModifiedTime } from './src/utils/remark-modified-time.mjs';/* 增加最後修改時間 */
 
 // https://astro.build/config
 export default defineConfig({
@@ -74,6 +75,7 @@ export default defineConfig({
       remarkSectionize,
       parseDirectiveNode,
       [remarkRehype, { footnoteLabel: '註腳' }],
+      remarkModifiedTime,
     ],
     rehypePlugins: [
       rehypeKatex,
