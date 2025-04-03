@@ -25,6 +25,7 @@ import { remarkModifiedTime } from './src/utils/remark-modified-time.mjs';/* 增
 // https://astro.build/config
 export default defineConfig({
   site: "https://tt148.pages.dev",
+  base: "/",
   trailingSlash: "always",
   integrations: [
     tailwind(
